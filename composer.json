@@ -1,0 +1,16 @@
+{
+    "name": "webs/location",
+    "description": "World Countries, states and cities",
+    "authors": [
+        {
+            "name": "Dav Hovsepian",
+            "email": "dav.hovsepian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webs\\Location\\": "src/app",
+            "Webs\\Database\\": "src/database/seeders"
+        }
+    }
+}
