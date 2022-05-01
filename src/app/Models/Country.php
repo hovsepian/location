@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Country extends Model
 {
     use HasFactory;
+
+    public function states(){
+        return $this->hasMany('Webs\Location\Models\State');
+    }
+
+    public function cities(){
+        return $this->hasMany('Webs\Location\Models\City');
+    }
 }
